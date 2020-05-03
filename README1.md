@@ -1,0 +1,118 @@
+# Penetration Testing Framework
+
+## Contents
+
+- [Passive Reconnaisance](#passive-reconnaissance)
+- [Active Reconnaisance](#active-reconnaissance)
+- [Exploitation](#exploitation)
+- [Post Exploitation](#post-exploitation)
+- [Social Media](#social-media)
+- [Phishing](#phishing)
+- [Osint](#osint)
+- [Metasploit](#metasploit)
+- [Courses](#courses)
+- [Word Lists](#word-lists)
+- [Other](#other)
+
+## Passive Reconnaissance
+- [Google Hacking Database](https://www.exploit-db.com/google-hacking-database) - List of google searches (dorks) used to find publicly available information.
+	- [List of Dorks](https://gist.github.com/clarketm/919457847cece7ce40323dc217623054) - A list of additional useful dorks.
+- [DNS Stuff](https://tools.dnsstuff.com/) - Used to do DNS lookups for domains
+- [MXToolbox](https://mxtoolbox.com/) - Used for domain MX lookups (amongst other things)
+- [Arin](https://www.arin.net/) - Used to conduct WHOIS lookups for primarily North American domains
+- [LACNIC](https://www.lacnic.net/) - Used to conduct WHOIS lookups for Latin American domains.
+- [AFRINIC](https://www.afrinic.net/) - Used to conduct WHOIS lookups for African domains.
+- [APINC](https://www.apnic.net/) - Used to conduct WHOIS lookups for Asia/Pacific domains.
+- [RIPE](https://www.ripe.net/) - Used to conduct WHOIS lookups for European domains.
+- [IP Location Finder](https://www.iplocation.net/) - Attempts to geolocate websites.
+- [DNSrecon](https://tools.kali.org/information-gathering/dnsrecon) - Tool to enumerate domains, attempt zone transfers, and zone walks, amongst others.
+- [theHarvester](https://tools.kali.org/information-gathering/theharvester) - Scrape the internet for email addresses associated with a domain
+- [Recon-ng](https://hackertarget.com/recon-ng-tutorial/) - Information gathering framework
+- [CeWL](https://github.com/digininja/CeWL) - Wordlist generation tool that scrapes websites for words that meet the criteria of the enabled switches.
+- [Spiderfoot](https://github.com/smicallef/spiderfoot) - OSINT automation tool.  Uses several tools in sync to recon a target and map the connection to the host
+- [tcpdump](https://www.sans.org/security-resources/tcpip.pdf) - Network packet analysis tool.  Captures network traffic over a NIC.
+	- [tcpdump](https://github.com/the-tcpdump-group/tcpdump) - Download link.
+- [SSL Server Test](https://www.ssllabs.com/ssltest/) - Test SSL certs for websites.
+
+## Active Reconnaissance
+- [Nmap](https://www.stationx.net/nmap-cheat-sheet/) - Comprehensive host scanner, port scanner, and scripting engine.  
+- [OpenVAS](https://www.techrepublic.com/article/how-to-run-a-complete-network-scan-with-openvas/) - Versatile vulnerability scanner.
+	- [Installation Guide](https://hackertarget.com/install-openvas-gvm-on-kali/) Guide for installing OpenVAS.
+- [OWASP ZAP](https://owasp.org/www-project-zap/) - Install link for OWASP's ZED Attack Proxy web application vulnerability scanner.
+- [Unicornscan](https://sourceforge.net/projects/osace/) - Asynchronous UDP/TCP port scanning tool.
+- [WPscan](https://github.com/wpscanteam/wpscan) - A Word Press security scanner used to test Word Press vulnerabilities.
+- [Wmap](https://www.offensive-security.com/metasploit-unleashed/wmap-web-scanner/) - Web application vulnerability scanner within Metasploit.
+	-[Wmap Guide](https://resources.infosecinstitute.com/vulnerability-scanning-metasploit-part-ii/#gref) - Guide to using Wmap put out by the INFOSEC Institute.
+
+## Exploitation
+- [Upgrading ncat sessions to meterpreter sessions](https://www.hackingtutorials.org/networking/upgrading-netcat-shells-to-meterpreter/) - Using ncat to gain a meterpreter session.
+- [macchanger](https://github.com/alobbs/macchanger) - Tool to change the mac address of a host to facilitate in exploitation efforts.
+- [Basic Linux Privilege Escalation](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/) - Cheat sheet to linux privilege escalation.
+- [Extracting files from packet capture](https://crucialsecurity.wordpress.com/2011/02/24/extracting-files-from-packet-captures/) - Method for extracting files from a packet capture, specifically Wireshark.
+- [msfvenom](https://github.com/rapid7/metasploit-framework/wiki/How-to-use-msfvenom) - Payload generation and encoding tool.  Used to generate payloads for exploits.
+	- [Medium's guide to msfvenom](https://medium.com/@PenTest_duck/offensive-msfvenom-from-generating-shellcode-to-creating-trojans-4be10179bb86) - A walkthrough for using msfvenom
+	- [FireEye's guide to payload generation and encoding using msfvenom](https://www.fireeye.com/blog/threat-research/2019/10/shikata-ga-nai-encoder-still-going-strong.html) - FireEye's walkthrough for creating custom payoads using msfvenom.
+	- [Offensive Security's buffer overflow attack guide](https://www.offensive-security.com/vulndev/evocam-remote-buffer-overflow-on-osx/) - Offensive Security's guide to buffer overflow attacks using msfvenom.
+- [Android reverse tcp](https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/payload/android/meterpreter/reverse_tcp.md) - Guide to establishing meterpreter sessions using known good applications.
+- [Immunity Debugger](https://www.immunityinc.com/products/debugger/) - Tool used to debug applications.  Useful when testing exploits.
+- [Aircrack-ng](https://github.com/Pure-L0G1C/Aircrack) - Wireless network cracking tool. Requires special promiscuous mode enabled wireless NICs to run.
+
+## Post Exploitation
+- [Koadic](https://github.com/zerosum0x0/koadic) - Post exploitation tool similar to Meterpreter used to create command and control servers and infect zombie hosts.
+- [pwdump](http://foofus.net/goons/fizzgig/pwdump/) - Tool to dump NTLM hashes from Windows hosts.
+- [mimikatz](https://github.com/gentilkiwi/mimikatz) - Tool used to facilitate pass-the-hash attacks against a target. 
+- [Hashcat](https://hashcat.net/wiki/) - Tool to facilitate password cracking.
+- [Medusa](https://github.com/jmk-foofus/medusa) - Login brute forcer.
+- [Ophcrack](https://ophcrack.sourceforge.io/) - Password cracker that utilizes rainbow tables.
+- [Burp Suite](https://portswigger.net/burp) - Capture and attempt to crack LAN traffic.
+	- [Brute force login page](https://portswigger.net/support/using-burp-to-brute-force-a-login-page)
+	- [Tutorial](https://www.youtube.com/watch?v=25cazx5D_vw) - Login page brute force tutorial using Burp Suite.
+
+## Social Media
+- [Facebook](https://www.facebook.com/) - Facebook link
+- [Twitter](https://www.twitter.com/) - Twitter Link
+- [LinkedIn](https://www.linkedin.com/) - LinkedIn Link
+- [Instagram](https://www.instagram.com/) - Instagram Link
+- [Github](https://www.github.com/) - Github Link
+
+## Phishing
+- [Phishing_catcher](https://github.com/x0rz/phishing_catcher) - Catch possible phishing domains by inspecting suspicious TLS certificates via the CertStream API.
+- [URL Haus](https://urlhaus.abuse.ch/) - Lists URLs used for malware distribution.  Also has an API to download data sets.
+- [Phish Tank](https://www.phishtank.com/) - User submitted phishing content with a free API.
+- [Open Phish](https://openphish.com/) - Phishing link tracker with feed.
+
+## Osint
+- [Orca](https://github.com/digitalshadows/orca) - OSINT Framework focused on domain and service discovery.
+- [Maltego](https://www.maltego.com/) - OSINT and graphical link analysis tool. 
+	- [msploitego](https://github.com/shizzz477/msploitego) - Pentesting suite for Maltego based on data in a Metasploit database.
+
+## Metasploit
+- [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/) - A comprehensive guide to using the metasploit framework.
+- [Metasploit Command Cheat Sheets](https://thehacktoday.com/metasploit-commands/) - A cheat sheet of common Metasploit commands.
+- [Kali Tools Metasploit Guide](https://tools.kali.org/exploitation-tools/metasploit-framework) - Kali's guide to using Metasploit.
+- [SANS Metasploit Cheat Sheet](https://www.sans.org/security-resources/sec560/misc_tools_sheet_v1.pdf) - Another Metasploit cheat sheet, this time put out by the SANS Institute.
+
+## Courses
+- [HackerSploit MSF Course](https://www.youtube.com/playlist?list=PLBf0hzazHTGN31ZPTzBbk70bohTYT7HSm) - A series of YouTube videos put out by HackerSploit for introducing individuals to Metasploit.
+- [Ethical Hacking Course](https://www.youtube.com/playlist?list=PLYmlEoSHldN4grLJ7VW8LVTE40lIfr1ZI) - Another series of YouTube videos, this one put out by Joseph Delgadillo introducing further elements of ethical hacking.
+- [HacktheBox](https://www.hackthebox.eu/) - A collection of labs put together to test one's penetration testing skills.  Useful for advancing skills or preparation for CTF events.
+	-[CTF Tools](https://github.com/zardus/ctf-tools) - A large collection of tools that are commonly found in CTF environments.
+- [Vulnhub](https://www.vulnhub.com/) - A site that hosts numerous vulnerable hosts to download and attempt to penetrate.
+- [Hackthissite](https://www.hackthissite.org/) - Attempt to hack this vulnerable site.
+- [Over the Wire: Wargames](https://overthewire.org/wargames/) - Website to attempt to exploit hosts.
+- [Root me](https://www.root-me.org/?lang=en) - Can you root these hosts?
+- [Hack Yourself First](http://hack-yourself-first.com/) - Another vulerable site to attempt to hack.
+- [Juice-shop](https://github.com/bkimminich/juice-shop) - Library of insecure web apps.
+- [Try2Hack](www.try2hack.nl) - Attempt to capture all the loot.  Access to level 10 is pursuant upon successfully completing level 9 and presents an interesting challenge.
+- [Hacknet Game](https://store.steampowered.com/app/365450/Hacknet/)
+
+## Word Lists
+- [Hackersploit Word List](https://hsploit.com/wordlist-collection/) 
+- [Dan Miessler Username Word List](https://github.com/danielmiessler/SecLists/tree/master/Usernames)
+- [Dan Miesler Password Word List](https://github.com/danielmiessler/SecLists/tree/master/Passwords)
+- [Rockyou.txt](downloads.skullsecurity.org/passwords/rockyou.txt.bz2) - One of the largest and best password files.
+
+## Other
+- [ACII to Hex](https://www.asciitohex.com/) - Converts several input methods into others (e.g. ASCII to Hex).
+
+
