@@ -93,8 +93,8 @@
 - [SANS Metasploit Cheat Sheet](https://www.sans.org/security-resources/sec560/misc_tools_sheet_v1.pdf) - Another Metasploit cheat sheet, this time put out by the SANS Institute.
 
 ## Courses
-- [HackerSploit MSF Course](https://www.youtube.com/playlist?list=PLBf0hzazHTGN31ZPTzBbk70bohTYT7HSm) - A serious of YouTube videos put out by HackerSploit for introducing individuals to Metasploit.
-- [Ethical Hacking Course](https://www.youtube.com/playlist?list=PLYmlEoSHldN4grLJ7VW8LVTE40lIfr1ZI) - Another serious of YouTube videos, this one put out by Joseph Delgadillo introducing further elements of ethical hacking.
+- [HackerSploit MSF Course](https://www.youtube.com/playlist?list=PLBf0hzazHTGN31ZPTzBbk70bohTYT7HSm) - A series of YouTube videos put out by HackerSploit for introducing individuals to Metasploit.
+- [Ethical Hacking Course](https://www.youtube.com/playlist?list=PLYmlEoSHldN4grLJ7VW8LVTE40lIfr1ZI) - Another series of YouTube videos, this one put out by Joseph Delgadillo introducing further elements of ethical hacking.
 - [HacktheBox](https://www.hackthebox.eu/) - A collection of labs put together to test one's penetration testing skills.  Useful for advancing skills or preparation for CTF events.
 	-[CTF Tools](https://github.com/zardus/ctf-tools) - A large collection of tools that are commonly found in CTF environments.
 - [Vulnhub](https://www.vulnhub.com/) - A site that hosts numerous vulnerable hosts to download and attempt to penetrate.
