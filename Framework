@@ -9,6 +9,10 @@
 - [Social Media](#social-media)
 - [Phishing](#phishing)
 - [Osint](#osint)
+- [Metasploit](#metasploit)
+- [Courses](#courses)
+- [Word Lists](#word-lists)
+- [Other](#other)
 
 ## Passive Reconnaissance
 - [Google Hacking Database](https://www.exploit-db.com/google-hacking-database) - List of google searches (dorks) used to find publicly available information.
@@ -28,6 +32,7 @@
 - [Spiderfoot](https://github.com/smicallef/spiderfoot) - OSINT automation tool.  Uses several tools in sync to recon a target and map the connection to the host
 - [tcpdump](https://www.sans.org/security-resources/tcpip.pdf) - Network packet analysis tool.  Captures network traffic over a NIC.
 	- [tcpdump](https://github.com/the-tcpdump-group/tcpdump) - Download link.
+- [SSL Server Test](https://www.ssllabs.com/ssltest/) - Test SSL certs for websites.
 
 ## Active Reconnaissance
 - [Nmap](https://www.stationx.net/nmap-cheat-sheet/) - Comprehensive host scanner, port scanner, and scripting engine.  
@@ -36,6 +41,8 @@
 - [OWASP ZAP](https://owasp.org/www-project-zap/) - Install link for OWASP's ZED Attack Proxy web application vulnerability scanner.
 - [Unicornscan](https://sourceforge.net/projects/osace/) - Asynchronous UDP/TCP port scanning tool.
 - [WPscan](https://github.com/wpscanteam/wpscan) - A Word Press security scanner used to test Word Press vulnerabilities.
+- [Wmap](https://www.offensive-security.com/metasploit-unleashed/wmap-web-scanner/) - Web application vulnerability scanner within Metasploit.
+	-[Wmap Guide](https://resources.infosecinstitute.com/vulnerability-scanning-metasploit-part-ii/#gref) - Guide to using Wmap put out by the INFOSEC Institute.
 
 ## Exploitation
 - [Upgrading ncat sessions to meterpreter sessions](https://www.hackingtutorials.org/networking/upgrading-netcat-shells-to-meterpreter/) - Using ncat to gain a meterpreter session.
@@ -48,11 +55,18 @@
 	- [Offensive Security's buffer overflow attack guide](https://www.offensive-security.com/vulndev/evocam-remote-buffer-overflow-on-osx/) - Offensive Security's guide to buffer overflow attacks using msfvenom.
 - [Android reverse tcp](https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/payload/android/meterpreter/reverse_tcp.md) - Guide to establishing meterpreter sessions using known good applications.
 - [Immunity Debugger](https://www.immunityinc.com/products/debugger/) - Tool used to debug applications.  Useful when testing exploits.
+- [Aircrack-ng](https://github.com/Pure-L0G1C/Aircrack) - Wireless network cracking tool. Requires special promiscuous mode enabled wireless NICs to run.
 
 ## Post Exploitation
 - [Koadic](https://github.com/zerosum0x0/koadic) - Post exploitation tool similar to Meterpreter used to create command and control servers and infect zombie hosts.
 - [pwdump](http://foofus.net/goons/fizzgig/pwdump/) - Tool to dump NTLM hashes from Windows hosts.
 - [mimikatz](https://github.com/gentilkiwi/mimikatz) - Tool used to facilitate pass-the-hash attacks against a target. 
+- [Hashcat](https://hashcat.net/wiki/) - Tool to facilitate password cracking.
+- [Medusa](https://github.com/jmk-foofus/medusa) - Login brute forcer.
+- [Ophcrack](https://ophcrack.sourceforge.io/) - Password cracker that utilizes rainbow tables.
+- [Burp Suite](https://portswigger.net/burp) - Capture and attempt to crack LAN traffic.
+	- [Brute force login page](https://portswigger.net/support/using-burp-to-brute-force-a-login-page)
+	- [Tutorial](https://www.youtube.com/watch?v=25cazx5D_vw) - Login page brute force tutorial using Burp Suite.
 
 ## Social Media
 - [Facebook](https://www.facebook.com/) - Facebook link
@@ -84,6 +98,21 @@
 - [HacktheBox](https://www.hackthebox.eu/) - A collection of labs put together to test one's penetration testing skills.  Useful for advancing skills or preparation for CTF events.
 	-[CTF Tools](https://github.com/zardus/ctf-tools) - A large collection of tools that are commonly found in CTF environments.
 - [Vulnhub](https://www.vulnhub.com/) - A site that hosts numerous vulnerable hosts to download and attempt to penetrate.
+- [Hackthissite](https://www.hackthissite.org/) - Attempt to hack this vulnerable site.
+- [Over the Wire: Wargames](https://overthewire.org/wargames/) - Website to attempt to exploit hosts.
+- [Root me](https://www.root-me.org/?lang=en) - Can you root these hosts?
+- [Hack Yourself First](http://hack-yourself-first.com/) - Another vulerable site to attempt to hack.
+- [Juice-shop](https://github.com/bkimminich/juice-shop) - Library of insecure web apps.
+- [Try2Hack](www.try2hack.nl) - Attempt to capture all the loot.  Access to level 10 is pursuant upon successfully completing level 9 and presents an interesting challenge.
+- [Hacknet Game](https://store.steampowered.com/app/365450/Hacknet/)
+
+## Word Lists
+- [Hackersploit Word List](https://hsploit.com/wordlist-collection/) 
+- [Dan Miessler Username Word List](https://github.com/danielmiessler/SecLists/tree/master/Usernames)
+- [Dan Miesler Password Word List](https://github.com/danielmiessler/SecLists/tree/master/Passwords)
+- [Rockyou.txt](downloads.skullsecurity.org/passwords/rockyou.txt.bz2) - One of the largest and best password files.
 
 ## Other
 - [ACII to Hex](https://www.asciitohex.com/) - Converts several input methods into others (e.g. ASCII to Hex).
+
+
