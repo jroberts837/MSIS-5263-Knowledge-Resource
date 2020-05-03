@@ -35,11 +35,19 @@
 	- [Installation Guide](https://hackertarget.com/install-openvas-gvm-on-kali/) Guide for installing OpenVAS.
 - [OWASP ZAP](https://owasp.org/www-project-zap/) - Install link for OWASP's ZED Attack Proxy web application vulnerability scanner.
 - [Unicornscan](https://sourceforge.net/projects/osace/) - Asynchronous UDP/TCP port scanning tool.
+- [WPscan](https://github.com/wpscanteam/wpscan) - A Word Press security scanner used to test Word Press vulnerabilities.
 
 ## Exploitation
+- [Upgrading ncat sessions to meterpreter sessions](https://www.hackingtutorials.org/networking/upgrading-netcat-shells-to-meterpreter/) - Using ncat to gain a meterpreter session.
 - [macchanger](https://github.com/alobbs/macchanger) - Tool to change the mac address of a host to facilitate in exploitation efforts.
 - [Basic Linux Privilege Escalation](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/) - Cheat sheet to linux privilege escalation.
 - [Extracting files from packet capture](https://crucialsecurity.wordpress.com/2011/02/24/extracting-files-from-packet-captures/) - Method for extracting files from a packet capture, specifically Wireshark.
+- [msfvenom](https://github.com/rapid7/metasploit-framework/wiki/How-to-use-msfvenom) - Payload generation and encoding tool.  Used to generate payloads for exploits.
+	- [Medium's guide to msfvenom](https://medium.com/@PenTest_duck/offensive-msfvenom-from-generating-shellcode-to-creating-trojans-4be10179bb86) - A walkthrough for using msfvenom
+	- [FireEye's guide to payload generation and encoding using msfvenom](https://www.fireeye.com/blog/threat-research/2019/10/shikata-ga-nai-encoder-still-going-strong.html) - FireEye's walkthrough for creating custom payoads using msfvenom.
+	- [Offensive Security's buffer overflow attack guide](https://www.offensive-security.com/vulndev/evocam-remote-buffer-overflow-on-osx/) - Offensive Security's guide to buffer overflow attacks using msfvenom.
+- [Android reverse tcp](https://github.com/rapid7/metasploit-framework/blob/master/documentation/modules/payload/android/meterpreter/reverse_tcp.md) - Guide to establishing meterpreter sessions using known good applications.
+- [Immunity Debugger](https://www.immunityinc.com/products/debugger/) - Tool used to debug applications.  Useful when testing exploits.
 
 ## Post Exploitation
 - [Koadic](https://github.com/zerosum0x0/koadic) - Post exploitation tool similar to Meterpreter used to create command and control servers and infect zombie hosts.
@@ -61,6 +69,21 @@
 
 ## Osint
 - [Orca](https://github.com/digitalshadows/orca) - OSINT Framework focused on domain and service discovery.
+- [Maltego](https://www.maltego.com/) - OSINT and graphical link analysis tool. 
+	- [msploitego](https://github.com/shizzz477/msploitego) - Pentesting suite for Maltego based on data in a Metasploit database.
+
+## Metasploit
+- [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/) - A comprehensive guide to using the metasploit framework.
+- [Metasploit Command Cheat Sheets](https://thehacktoday.com/metasploit-commands/) - A cheat sheet of common Metasploit commands.
+- [Kali Tools Metasploit Guide](https://tools.kali.org/exploitation-tools/metasploit-framework) - Kali's guide to using Metasploit.
+- [SANS Metasploit Cheat Sheet](https://www.sans.org/security-resources/sec560/misc_tools_sheet_v1.pdf) - Another Metasploit cheat sheet, this time put out by the SANS Institute.
+
+## Courses
+- [HackerSploit MSF Course](https://www.youtube.com/playlist?list=PLBf0hzazHTGN31ZPTzBbk70bohTYT7HSm) - A serious of YouTube videos put out by HackerSploit for introducing individuals to Metasploit.
+- [Ethical Hacking Course](https://www.youtube.com/playlist?list=PLYmlEoSHldN4grLJ7VW8LVTE40lIfr1ZI) - Another serious of YouTube videos, this one put out by Joseph Delgadillo introducing further elements of ethical hacking.
+- [HacktheBox](https://www.hackthebox.eu/) - A collection of labs put together to test one's penetration testing skills.  Useful for advancing skills or preparation for CTF events.
+	-[CTF Tools](https://github.com/zardus/ctf-tools) - A large collection of tools that are commonly found in CTF environments.
+- [Vulnhub](https://www.vulnhub.com/) - A site that hosts numerous vulnerable hosts to download and attempt to penetrate.
 
 ## Other
 - [ACII to Hex](https://www.asciitohex.com/) - Converts several input methods into others (e.g. ASCII to Hex).
